@@ -11,7 +11,7 @@ const Titlebar = () => {
       item-center
       justify-between font-light text-gray-950 space-x-6">
              <div className="">
-                 <Image  src={logoURL}  height="90"  width="150" ></Image>       
+                 <Image alt="titlelogo" src={logoURL}  height="90"  width="150" ></Image>       
 
              </div>
              <div className=" flex items-center justify-between space-x-12 text-lg">

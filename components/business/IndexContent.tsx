@@ -23,7 +23,7 @@ const IndexContent = () => {
             </div>
             <div className=" text-blue-600 font-normal flex text-center justify-center space-x-2">
               <p>了解更多</p>  
-              <Image src="/img/Arrowup.png" height="16" width="24"></Image>
+              <Image alt="" src="/img/Arrowup.png" height="16" width="24"></Image>
             </div>
               
         </div>
@@ -59,7 +59,7 @@ const IndexContent = () => {
             </div>
             <div className=" text-blue-600 font-normal flex text-center justify-center space-x-2">
               <p>了解更多</p>  
-              <Image src="/img/Arrowup.png" height="16" width="24"></Image>
+              <Image alt="" src="/img/Arrowup.png" height="16" width="24"></Image>
             </div>              
         </div>                
       </div>
@@ -78,7 +78,7 @@ const IndexContent = () => {
             </div>
             <div className=" text-blue-600 font-normal flex text-center justify-center space-x-2">
               <p>了解更多</p>  
-              <Image src="/img/Arrowup.png" height="16" width="24"></Image>
+              <Image alt="" src="/img/Arrowup.png" height="16" width="24"></Image>
             </div>
               
         </div>

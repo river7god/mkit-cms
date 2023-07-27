@@ -4,7 +4,7 @@ const Footer = () => {
     return ( <div className="left-0 font-light h-[250px] text-xs text-white px-36 w-ful flex items-center justify-between bg-blue-900">
            <div className="flex-col space-y-4">
               <div className=" flex space-x-4">
-               <Image src="/img/logo.png" width="22" height="15"></Image>
+               <Image alt="logo" src="/img/logo.png" width="22" height="15"></Image>
                 <p className=" text-xl">Greate Stage</p>
               </div>
               <div>业务电话:1111111</div>
