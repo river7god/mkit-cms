@@ -1,0 +1,83 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+
+model SysUser {
+  id String @id @default(auto()) @map("_id") @db.ObjectId 
+  name            String?
+  username        String?   @unique
+  bio             String?
+  email           String?   @unique @map("email")
+  tenantId        String?
+  userType String?
+  emailVerified   DateTime?
+  image           String?
+  phonenumber String?
+  coverImage      String?
+  profileImage    String?
+  hashedPassword  String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  followingIds    String[] @db.ObjectId
+  hasNotification Boolean?
+
+  delFlag Boolean?
+  loginIp String?
+  loginDate DateTime?
+  createdBy String?
+  updateBy  String?
+  remark  String?
+  address String?
+  country String?
+  nation String?
+  citizen String?
+
+  posts         Post[]
+  comments      Comment[]
+  notifications Notification[]
+}
+
+
+model Post {
+  id                 String @id @default(auto()) @map("_id") @db.ObjectId
+  body               String
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  userId             String @db.ObjectId
+  likedIds           String[] @db.ObjectId
+  image              String?
+
+  user SysUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  comments          Comment[]
+}
+
+model Comment {
+  id                 String @id @default(auto()) @map("_id") @db.ObjectId
+  body               String
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  userId             String @db.ObjectId
+  postId             String @db.ObjectId
+
+  user SysUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  post Post @relation(fields: [postId], references: [id], onDelete: Cascade)
+}
+
+model Notification {
+  id                 String @id @default(auto()) @map("_id") @db.ObjectId
+  body               String
+  userId             String @db.ObjectId
+  createdAt          DateTime @default(now())
+
+  user SysUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.index-banner-bg {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2F699pic.com%2Ftupian%2Fbeijing.html&psig=AOvVaw23imxHZ5Ih40Zc9BAATfXE&ust=1690348384545000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMi5qs-MqYADFQAAAAAdAAAAABAE');
+}
