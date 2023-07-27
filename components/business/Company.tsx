@@ -19,7 +19,7 @@ const Company: React.FC<ComProps> = ({ label, icon:string, href, onClick }) => {
 
     
     return ( <div>
-              <Image src={icon}  height="60" className='border border-gray-200 rounded'  width="130"></Image>
+              <Image alt="company" src={icon}  height="60" className='border border-gray-200 rounded'  width="130"></Image>
     </div> );
 }
  
