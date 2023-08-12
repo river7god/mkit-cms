@@ -1,0 +1,18 @@
+.arrow-up {
+width: 0;
+height: 0;
+border-top: 5px solid transparent;
+border-bottom: 5px solid transparent;
+border-left: 10px solid white;
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url('/fonts/impact.ttf') format('truetype');
+    /* 可以添加其他字体格式的源，如 woff、woff2 等 */
+  }
+  
+  .font-impact {
+    font-family: 'Impact', sans-serif;
+  }
+  

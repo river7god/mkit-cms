@@ -11,7 +11,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className=" bg-white px-0 py-0 w-full">
        <div className=' flex flex-col'>            
-        <Titlebar></Titlebar>
+        
           <div>
             {children}
           

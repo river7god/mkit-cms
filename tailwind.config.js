@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sourceHanSans': ['SourceHanSansCN-Bold', 'SourceHanSansCN-Light', 'SourceHanSansCN-Normal','sans-serif'],
+      },
+      colors: {
+        // 添加自定义颜色
+        indexBGColorFrom: '#63166F',
+        indexBGColorTo: '#8B1A49',
+        DeclariationBG:'#F2F5F8',
+        NumberBlue:'#0077C8',
+        bgNumberBlue:'#D3E4F7',
+        bgNumberBlue2:'#ECF4FB',
+        shadowcolor:'#D1D1D1'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

@@ -8,6 +8,7 @@ import EditModal from '@/components/dialog/EditModal';
 
 import Layout from '@/components/Layout'
 import '@/styles/globals.css'
+import '@/styles/mkit.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
