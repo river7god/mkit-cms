@@ -46,6 +46,15 @@ model SysUser {
   notifications Notification[]
 }
 
+model Ask {
+  id                 String @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  name               String?
+  phone              String?  
+  email              String?   
+  company            String?
+}
 
 model Post {
   id                 String @id @default(auto()) @map("_id") @db.ObjectId

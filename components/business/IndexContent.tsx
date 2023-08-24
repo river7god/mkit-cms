@@ -31,7 +31,7 @@ const IndexContent = () => {
             <div className=" text-sm">海外·雇佣管理</div>
             <div className=" font-semibold text-2xl flex ">帮您完成海外雇佣，让您专注全球业务拓展</div>
             <div className="flex">
-            <div className=" text-sm text-slate-950  w-[102] leading-6">通过名义雇主(EOR) 服务，大圣国际帮助企业在业务开展地区合雇佣员工，管理员工的薪资发放及当地法定福利的缴纳和申报，并满足所有员工入职、签约、保险、税务、薪酬的法律严密的雇佣合同，简洁的办公流程，完善的合规保证</div>
+            <div className=" text-sm text-slate-950  w-[102] leading-6">通过名义雇主（EOR）服务，大圣国际协助企业在业务开展地区合规雇佣，一站式解决员工签约、入职、薪资发放、法定福利等日常管理难题，为企业快速拓展全球业务保驾护航。</div>
             </div>
             <div className=" w-8 bg-indexBGColorFrom h-1"></div>
             <div className=" py-10">
@@ -65,7 +65,7 @@ const IndexContent = () => {
             <div className=" text-sm">海外·用工解决方案 </div>
             <div className=" font-semibold text-2xl flex ">我们支持全球范围内的灵活用工</div>
             <div className="flex">
-            <div className=" text-sm text-slate-950  w-[102] leading-6">为企业和海外顾问提供灵活用工的解决方案，支持长期，项目制签约等方式。 安全合规的合同便捷的操作流程清晰的审计记录</div>
+            <div className=" text-sm text-slate-950  w-[102] leading-6">为企业和海外顾问提供灵活用工的解决方案，支持长期，项目制签约等方式。 保证合同合规、操作便携、审计清晰。</div>
             </div>
             <div className=" w-8 bg-indexBGColorFrom h-1"></div>
             <div className=" py-10">
@@ -83,7 +83,7 @@ const IndexContent = () => {
             <div className=" text-sm">海外·招聘服务</div>
             <div className=" font-semibold text-2xl flex ">作为全球猎头为您提供人才招聘服务</div>
             <div className="flex">
-            <div className=" text-sm text-slate-950  w-[102] leading-6">无论您的人才需求是什么，我们团队都会用专业知识和经验来帮助您招募最优秀最适合的人才 高管寻访 专业人才招聘 批量化招聘</div>
+            <div className=" text-sm text-slate-950  w-[102] leading-6">大圣国际分布全球的招聘顾问为您提供专属定制化的猎聘服务，精准推荐符合企业素质模型需求的理想人才。</div>
             </div>
             <div className=" w-8 bg-indexBGColorFrom h-1"></div>
             <div className=" py-10">
