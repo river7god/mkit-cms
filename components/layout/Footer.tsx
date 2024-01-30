@@ -7,10 +7,10 @@ const Footer = () => {
            
            <div className=" text-sm space-y-2">
                <div>
-               ©️2023 GinatSage All Rights Reserved. 北京指行天下科技有限公司
+               ©️2023 GinatSage All Rights Reserved. 北京新东翠科技有限公司
                </div>
                <div>
-               北京市朝阳区蓝堡国际中心I座506   邮箱：contact@giantsage.com
+               北京市门头沟区   邮箱：contact@xindongcui.com
                </div>
            </div>
     </div> );
