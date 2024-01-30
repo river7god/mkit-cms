@@ -45,7 +45,7 @@ const Titlebar: React.FC<TitlebarProps> = ({ bgStyle, textStyle,logoURL }) => {
       item-center
       justify-between text-gray-950 space-x-6">
              <div onClick={handleButtonClick} className=" cursor-pointer flex items-center justify-center space-x-[20px]">
-                 <p class="bg-blue-800 text-white">代雇佣平台</p>
+                 <p className="bg-blue-800 text-white">代雇佣平台</p>
              </div>
                 <div className={`text-${textStyle} flex items-center font-sans justify-between space-x-12 text-[13px]`}>
                       <div className="relative cursor-pointer hover:text-blue-600" 
