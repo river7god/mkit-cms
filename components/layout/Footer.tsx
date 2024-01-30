@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
     return ( <div className=" space-x-16 justify-center left-0 font-light h-[120px] text-xs text-white sm:px-[20px] px-[100px] lg:px-[220px] w-ful flex items-center  bg-black">
            
-           <div><Image alt="logo" src="/img/logobig.png?cache=${Date.now()}" width="120" height="140"></Image></div>
+           <div></div>
            
            <div className=" text-sm space-y-2">
                <div>
